@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>UG Computer Science</title>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+    
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="Home.html"> <img src="images/comScience_logo.png"> </a>
+            <div class="nav-links" id="nav-Links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="Home.html">Home</a> </li>
+                    <li> <a href="About.html">About</a> </li>
+                    <li> <a href="Faculty.html">Faculty</a> </li>
+                        <li> <a href="Catalog.html">Catalog</a> 
+                            <ul id="submenu">
+                                <li><a href="courses.html">Course</a></li>
+                                <li><a href="course-structure.html">Course <br> Structure</a></li>
+                              </ul>
+                        </li>
+                    
+                    <li> <a href="contact.html">Contact</a> 
+                        <ul id="submenu">
+                            <li><a href="Faculty.html">Faculty</a></li>
+                            <li><a href="Events.html">Events</a></li>
+                            <li><a href="Resources.html">Resources</a></li>
+                            <li><a href="News.html">News</a></li>
+                            <li><a href="https://balme.ug.edu.gh/">Library</a></li>
+                          </ul>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>Resources</h1>
+    </section>
+
+    
+
+    <div class="resources">
+        <h2>The computer science department in the University of Ghana offers various resources for students, graduates, workers and the general public who are interested in learning and developing their skills in the field of information technology. <br> <br> Some of the resources are:
+        </h2>
+
+        <div class="sub-resource">
+            <h3>Undergraduate Programmes</h3>
+        <img class="" src="">
+        <p>
+            The department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology1. These programmes cover the core topics of computer science such as programming, data structures, algorithms, operating systems, databases, artificial intelligence, software engineering, etc. The programmes also provide opportunities for students to learn about emerging technologies and methods such as cloud computing, machine learning, image processing, etc. The admission requirements, course structure and curriculum can be found on the department’s website.
+        </p>
+        </div>
+        
+        
+
+
+        <div class="sub-resource">
+            <h3>Graduate degree programmes</h3>
+        <img class="" src="">
+        <p>
+            The department also offers graduate degree programmes such as Master of Philosophy (MPhil) and Master of Science (MSc) in Computer Science, as well as Doctor of Philosophy (PhD) in Computer Science. These programmes aim to provide students with advanced knowledge and skills in computer science, as well as to enable them to conduct original and high-quality research in various areas of computer science. The admission requirements, programme duration and research topics can be found on the department’s website.
+        </p>
+        </div>
+
+
+
+
+        <div class="sub-resource">
+            <h3>Online short courses</h3>
+        <img class="" src="">
+        <p>
+            The department offers online short courses in various I.T. fields such as web programming, information security and ethical hacking, digital marketing, database management, etc. These courses are open to senior high school graduates, tertiary students, graduates, workers and the general public who want to enhance their I.T. skills and knowledge. The courses are delivered through online platforms such as Zoom, Google Classroom, etc. The course fees, duration and registration details can be found on the university’s website.
+        </p>
+        </div>
+       
+
+
+
+        <div class="sub-resource">
+            <h3>Research and projects</h3>
+        <img class="" src="">
+        <p>
+            The department is involved in various research and projects that aim to solve real-world problems and contribute to the development of the society and the economy. Some of the research areas include artificial intelligence, data science, computer vision, natural language processing, software engineering, etc. The department also collaborates with other departments, institutions and industries to conduct interdisciplinary and applied research. The department’s research output, publications and projects can be found on the department’s website.
+        </p>
+        </div>
+    </div>
+
+
+
+    <footer class="main-footer">
+            <section class="footer-section">
+       <h3>Get To Know Us</h3>
+       
+        <div class="main-footer-side">
+            <div class="main-footer-side-info">
+                <h3>Contact Us</h3>
+                <p class="footer-text">
+                    Phone & Email <br>
+                    <!--Icons-->
+                    +233 501 382 035 <br>
+                    +233 559 145 698 <br>
+                    dcs@ug.edu.gh
+                </p>
+            </div>
+
+            <div class="course-column-others">
+                <h3>Location</h3>
+                <p class="footer-text">
+                    <!--Icons-->
+                    University Of Ghana, Legon Campus
+                    Opposite Mathematics Department
+                </p>
+            </div>
+
+            <div class="course-column-others">
+                <h3>Stay Update With Our Latest</h3> <br>
+                <input type="text" autocomplete="off" name="text" class="input" placeholder="username@gmail.com"> <br>
+
+                <button>
+                    <div class="svg-wrapper-1">
+                      <div class="svg-wrapper">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          height="24"
+                        >
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path
+                            fill="currentColor"
+                            d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <span>Send</span>
+                  </button>
+                  
+                
+                    
+            </div>  
+
+        </div>
+
+    </section>
+    <div class="Copyright">
+        <p>Copyright ©2023 All rights reserved</p>
+    </div>
+                
+    </footer>
+
+</body>
+</html>
